@@ -340,11 +340,11 @@ img {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-field:hover .form-input,
-.form-field:focus .form-input,
-.form-field:hover .form-input-textarea,
-.form-field:focus .form-input-textarea {
-  border: 1px solid var(--accent-icon-hover);
+.form-input:hover ,
+.form-input:focus ,
+.form-input-textarea:hover ,
+.form-input-textarea:focus  {
+  border-color: var(--accent-icon-hover);
 }
 
 .form-input-textarea {
@@ -356,7 +356,7 @@ img {
 
 .form-input-textarea:focus-visible,
 .form-input:focus-visible {
-  border: 1px solid var(--accent-icon-hover);
+  border-color: var(--accent-icon-hover);
 }
 
 .form-input-textarea::placeholder {
