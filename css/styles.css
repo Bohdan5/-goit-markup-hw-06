@@ -356,6 +356,7 @@ img {
 
 .form-input-textarea:focus-visible,
 .form-input:focus-visible {
+  border: 1px solid var(--accent-icon-hover);
   border-color: var(--accent-icon-hover);
 }
 
